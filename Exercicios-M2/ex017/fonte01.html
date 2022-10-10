@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+            
+            medidas relativas 
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            recomendação oficial w3c: usar em ou px
+            */
+            font-size: 1em ;
+            /* lighter normal bold bolder */
+            
+        }
+
+h1 {
+    
+    /* shorthand font 
+    - font-style -> font-weight -> font-size -> font-family 
+    
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    */
+    font: italic bolder 3em 'Work Sans', sans-serif;
+}
+
+h2 {
+    font: bold 2em 'Work Sans';
+}
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi accusamus et eum enim exercitationem? In suscipit ut cum molestiae dolor neque nesciunt consequatur temporibus a ipsum reiciendis nisi, praesentium autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores minima recusandae, soluta voluptas at ipsam tenetur ducimus eum accusantium veritatis, deleniti harum eaque voluptatem dolore laudantium magnam asperiores porro quibusdam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatem, ratione voluptate tempore dolorum voluptatibus laudantium dolor unde, laboriosam aliquid tempora quidem sequi eaque provident sapiente repellat nobis saepe rerum?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi modi, eveniet ipsum laboriosam unde quis necessitatibus exercitationem dolor praesentium, fugiat rem! Beatae harum sit explicabo, atque repellendus tenetur magnam!</p>
+    <h2>Subtitulo do texto</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis officiis nisi maiores perferendis mollitia enim magni possimus libero, incidunt obcaecati esse ad aliquam accusamus necessitatibus distinctio adipisci fugiat sunt nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus porro nesciunt dolor tempora repellat quae aspernatur optio corporis facilis voluptas similique, velit vitae quis! Magni optio ipsa porro sit dolor?</p>
+
+    
+</body>
+</html>
